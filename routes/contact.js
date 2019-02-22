@@ -13,13 +13,13 @@ router.get('/', (req, res, next) => {
             return console.error(err);
         }
         else{
-            console.log(contactList);
-            /*
+            //console.log(contactList);
+           
             res.render('contacts/index', {
-                title: 'Contact List',
+                title: 'Favourite Things',
                 contactList: contactList
             });
-            */
+           
 
         }
     });
